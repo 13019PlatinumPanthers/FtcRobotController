@@ -1,10 +1,12 @@
 package org.firstinspires.ftc.teamcode.Test;
 
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import org.firstinspires.ftc.teamcode.Robot.GBrobot;
 
 @TeleOp
+@Disabled
 public class testDistanceSensor extends OpMode {
     GBrobot robot;
 
